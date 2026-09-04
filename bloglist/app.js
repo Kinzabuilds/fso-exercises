@@ -1,8 +1,8 @@
 const express = require('express')
 
-const blogsRouter = require('./controllers/blogs')
-const usersRouter = require('./controllers/users')
-const loginRouter = require('./controllers/login')
+const blogsRouter = require('./controller/blogs')
+const usersRouter = require('./controller/users')
+const loginRouter = require('./controller/login')
 
 const middleware = require('./middleware/middleware')
 
